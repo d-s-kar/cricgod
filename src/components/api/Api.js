@@ -1,4 +1,4 @@
-const api_key="iSfVdaDx5QdSDU3F8NsMHjCDiin1";
+const api_key="VdaDx5QdSDU";
 
 //get all upcoming function
 
