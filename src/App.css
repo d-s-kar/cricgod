@@ -1,7 +1,13 @@
 .App {
   text-align: center;
 }
+.drop{
+  background-color: #61dafb;
+}
 
+body{
+  background: #e2e2e2;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
