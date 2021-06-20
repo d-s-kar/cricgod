@@ -111,9 +111,9 @@ const handleSelect=()=>{
 
   return (
     <div className="App">
-      {/* <Navbar/> */}
+       <Navbar/> 
       <Grid container>
-      {/* <Grid sm="3">
+      <Grid sm="3">
         <Button onClick={getLocalMatchData} style={{marginTop:50,textDecoration:'underline'}} >
           Click here for Local Match List
         </Button>
@@ -125,11 +125,11 @@ const handleSelect=()=>{
          <Mycard match={match} key={match.unique_id}/>
        )
      }
-     </Grid> */}
+     </Grid>
      <Grid>
-     {/* <div style={{marginRight:20,marginLeft:30,marginTop:30}}>
+     <div style={{marginRight:20,marginLeft:30,marginTop:30}}>
         <Dropdown onChange={handleMatches} options={options} value="Matches"/>
-        </div> */}
+        </div>
         
         <div>
           Clock
@@ -140,14 +140,14 @@ const handleSelect=()=>{
             More divs
           </div>
         </div>
-        {/* <img  style={{width:320,height:420}}src={require('./images/abd.png').default}/> */}
+        <img  style={{width:320,height:420}}src={require('./images/abd.png').default}/>
         </Grid>
     </Grid>
     <div style={{marginTop:30,marginBottom:30, marginLeft:450}} >
-    {/* <Pagination  showFirstButton={true} showLastButton ={true} count={Math.ceil(matches.length/matchesPerPage)}
+    <Pagination  showFirstButton={true} showLastButton ={true} count={Math.ceil(matches.length/matchesPerPage)}
      float="right" color="primary" variant="outlined" onChange={handleChange}>
 
-     </Pagination> */}
+     </Pagination>
     </div>
     </div>
     
